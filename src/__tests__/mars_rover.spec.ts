@@ -52,15 +52,35 @@ describe("Mars Rover should", () => {
 // Movement
 
 describe("Mars Rover should", () => {
-	it("return '0:1:N' when sent 'M' whilst facing North", () => {
+	it.each([
+			[ "0:1:N", "M" ],
+			[ "0:2:N", "MM" ],
+			[ "0:0:N", "MMMMMMMMMM" ],
+			[ "0:9:S", "RRM" ],
+		])
+	("return %p when sent %p whilst facing North", (expectedResponse: string, command: string) => {
 		const marsRover = new MarsRover();
-		const response = marsRover.execute("M");
-		expect(response).toBe("0:1:N");
+		const response = marsRover.execute(command);
+		expect(response).toBe(expectedResponse);
 	});
-	it("return '1:0:W' when sent 'M' whilst facing West", () => {
+
+	// 		N
+	// W 		E
+	// 		S
+	it("return '1:0:E' when sent 'RM' whilst facing North", () => {
 		const marsRover = new MarsRover();
 		const response = marsRover.execute("RM");
-		expect(response).toBe("1:0:W");
+		expect(response).toBe("1:0:E");
+	});
+	it("return '0:9:S' when sent 'RRM' whilst facing North", () => {
+		const marsRover = new MarsRover();
+		const response = marsRover.execute("RM");
+		expect(response).toBe("1:0:E");
+	});
+	it("return '9:0:W' when sent 'LM' whilst facing North", () => {
+		const marsRover = new MarsRover();
+		const response = marsRover.execute("LM");
+		expect(response).toBe("9:0:W");
 	});
 });
 
