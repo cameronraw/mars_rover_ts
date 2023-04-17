@@ -1,44 +1,73 @@
 export default class MarsRover {
 
   private orientation: string = 'N';
+  private y: number = 0;
+  private x: number = 0;
 
   execute(commandString: string) {
+    commandString
+        .split("")
+        .forEach(
+            char => this.executeCommand(char)
+        );
 
-    commandString.split("").forEach(char => {
-      if(char === "L"){
-        this.moveLeft();
-      };
+    return `${this.x}:${this.y}:${this.orientation}`;
+  }
 
-      if(char === "R"){
-        this.moveRight();
-      };
-    });
+  private executeCommand(char: string) {
+    if (char === "M") {
+      this.move();
+    }
 
-    return `0:0:${this.orientation}`;
+    if (char === "L") {
+      this.rotateLeft();
+    }
+
+    if (char === "R") {
+      this.rotateRight();
+    }
+  }
+
+  private move() {
+    switch (this.orientation) {
+      case 'N':
+        this.y = ++this.y < 9 ? this.y + 1 : 0;
+        break;
+      case 'S':
+        this.y = this.y > 0 ? this.y - 1 : 9;
+        break;
+      case 'E':
+        this.x = this.x < 9 ? this.x + 1 : 0;
+        break;
+      case 'W':
+        this.x = this.x > 0 ? this.x - 1 : 9;
+        break;
+    }
+
 
   }
-  
-  private moveRight() {
-    switch(this.orientation){
+
+  private rotateRight() {
+    switch (this.orientation) {
       case 'N':
         this.orientation = 'E';
         break;
-      case 'W':
-        this.orientation = 'N';
+      case 'E':
+        this.orientation = 'S';
         break;
       case 'S':
         this.orientation = 'W';
         break;
-      case 'E':
-        this.orientation = 'S';
+      case 'W':
+        this.orientation = 'N';
         break;
       default:
         throw new Error(`Invalid orientation: ${this.orientation}`);
     }
   };
 
-  private moveLeft() {
-    switch(this.orientation){
+  private rotateLeft() {
+    switch (this.orientation) {
       case 'N':
         this.orientation = 'W';
         break;
