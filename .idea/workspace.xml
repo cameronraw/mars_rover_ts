@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24ed5ff8-90e5-4a28-bb82-4b7c67f26670" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/mars_rover.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/mars_rover.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mars_rover.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/mars_rover.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OYYuIECZ9wQqZDfAbwVdLKfZOB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mauro/Code/mars_rover_ts/jest.config.ts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/home/mauro/Code/mars_rover_ts/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/opt/WebStorm-221.5787.30/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Jest.Mars Rover should">
+    <configuration name="Mars Rover should" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/mars_rover.spec.ts" />
+      <test-names>
+        <test-name value="Mars Rover should" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Mars Rover should.return '0:0:N' when sent 'MMMMMMMMMM' whilst facing North" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/mars_rover.spec.ts" />
+      <test-names>
+        <test-name value="Mars Rover should" />
+        <test-name value="return '0:0:N' when sent 'MMMMMMMMMM' whilst facing North" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Mars Rover should.return '1:0:E' when sent 'RM' whilst facing North" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/mars_rover.spec.ts" />
+      <test-names>
+        <test-name value="Mars Rover should" />
+        <test-name value="return '1:0:E' when sent 'RM' whilst facing North" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Mars Rover should.return '1:0:W' when sent 'M' whilst facing West" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/mars_rover.spec.ts" />
+      <test-names>
+        <test-name value="Mars Rover should" />
+        <test-name value="return '1:0:W' when sent 'M' whilst facing West" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Mars Rover should.return %p when sent command %p" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/mars_rover.spec.ts" />
+      <test-names>
+        <test-name value="Mars Rover should" />
+        <test-name value="return %p when sent command %p" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="jest.config.ts" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jest.config.ts" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Mars Rover should" />
+        <item itemvalue="Jest.Mars Rover should.return %p when sent command %p" />
+        <item itemvalue="Jest.Mars Rover should.return '1:0:E' when sent 'RM' whilst facing North" />
+        <item itemvalue="Jest.Mars Rover should.return '1:0:W' when sent 'M' whilst facing West" />
+        <item itemvalue="Jest.Mars Rover should.return '0:0:N' when sent 'MMMMMMMMMM' whilst facing North" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24ed5ff8-90e5-4a28-bb82-4b7c67f26670" name="Changes" comment="" />
+      <created>1681739203730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681739203730</updated>
+      <workItem from="1681739204870" duration="2984000" />
+      <workItem from="1681803113615" duration="1211000" />
+      <workItem from="1681805413802" duration="5396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
